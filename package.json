@@ -1,0 +1,21 @@
+{
+  "name": "exposer",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.1",
+    "amqplib": "^0.5.5",
+    "express": "^4.17.1",
+    "grpc": "^1.22.2",
+    "grpc-caller": "^0.13.0",
+    "grpc-kit": "^0.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
